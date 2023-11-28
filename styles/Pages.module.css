@@ -1,0 +1,80 @@
+.container {
+  width: 400px;
+  height: 440px;
+  /* background: linear-gradient(153deg, rgb(116, 56, 216), rgb(18, 150, 170) 74%); */
+  padding: 5px;
+  color: black;
+  /* font family is SF Pro*/
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+  filter: blur(35px);
+  z-index: -1;
+}
+
+.circle1 {
+  background-color: #ffcc00;
+  width: 350px;
+  height: 350px;
+  left: -80px;
+  bottom: -50px;
+}
+
+.circle2 {
+  background-color: #ff453a;
+  width: 350px;
+  height: 350px;
+  right: 40px;
+  bottom: 40px;
+}
+
+.circle3 {
+  background-color: #ff9500;
+  width: 350px;
+  height: 350px;
+  right: 50px;
+  bottom: -80px;
+}
+
+.main {
+  width: 390px;
+  height: 440px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+}
+
+.descriptionUnderline {
+  max-width: 250px;
+  text-align: center;
+  color: grey;
+  margin: 0 auto;
+}
+
+.bottomText {
+  font-size: 12px;
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
